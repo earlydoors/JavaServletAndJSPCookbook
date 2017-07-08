@@ -22,7 +22,7 @@ public class FirstServlet extends HttpServlet {
         //Begin assembling the HTML content            
         out.println("<html><head>");
        
-        out.println("<title>Help Page</title><head><body>");
+        out.println("<title>Help Page</title></head><body>");
         out.println("<h2>Please submit your information</h2>");
        
         //make sure method = "post" so that the servlet service method
